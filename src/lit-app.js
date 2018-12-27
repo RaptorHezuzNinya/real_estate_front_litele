@@ -1,6 +1,7 @@
 import { LitElement, html } from '@polymer/lit-element/';
 import { styles } from './lit-app-styles.js';
-import './hello-world.js';
+import './components/helloWorld/hello-world.js';
+import './components/navBar/navBar.js';
 
 class LitApp extends LitElement {
 	render() {

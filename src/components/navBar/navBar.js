@@ -1,6 +1,7 @@
 import { LitElement, html } from '@polymer/lit-element/';
 import { navBarStyles } from './navBarStyles.js';
 import '../selectBox/selectBox.js';
+import '../apiComponent/apiComponent.js';
 
 class NavBar extends LitElement {
     constructor() {
@@ -16,9 +17,11 @@ class NavBar extends LitElement {
             </style>
 
             <div class='nav-bar'>
+                <api-component hidden></api-component>
                 <select-box .selectBoxOptions=${years}></select-box>
                 <select-box .selectBoxOptions=${months}></select-box>
             </div>
+            
         `;
     }
 }

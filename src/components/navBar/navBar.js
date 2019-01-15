@@ -1,4 +1,4 @@
-import { LitElement, html } from '@polymer/lit-element/';
+import { LitElement, html } from 'lit-element/';
 import { navBarStyles } from './navBarStyles.js';
 import '../selectBox/selectBox.js';
 import '../apiComponent/apiComponent.js';

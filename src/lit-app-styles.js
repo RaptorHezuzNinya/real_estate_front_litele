@@ -1,4 +1,4 @@
-import { html } from '@polymer/lit-element';
+import { html } from 'lit-element';
 
 const POLYMER_PINK = '#fc4482';
 const SPACER = 5;

@@ -1,4 +1,4 @@
-import { LitElement } from '@polymer/lit-element';
+import { LitElement } from 'lit-element';
 
 class ApiComponent extends LitElement {
     static get properties() {

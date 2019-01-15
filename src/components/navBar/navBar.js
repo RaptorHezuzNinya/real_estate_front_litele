@@ -22,7 +22,7 @@ class NavBar extends LitElement {
                 <select-box .selectBoxOptions=${months}></select-box>
             </div>
             
-        `;
+         `;
     }
 }
 

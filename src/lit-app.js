@@ -1,4 +1,4 @@
-import { LitElement, html } from '@polymer/lit-element/';
+import { LitElement, html } from 'lit-element/';
 import { styles } from './lit-app-styles.js';
 import './components/navBar/navBar.js';
 

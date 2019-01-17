@@ -16,9 +16,7 @@ class HelloWorld extends LitElement {
 		const { greeting } = this;
 		return html`
 			<h1>${greeting}</h1>
-			<p class="app-intro">
-				To get started, edit <code>src/lit-app.js</code> and save to reload.
-			</p>
+			<p class="app-intro">To get started, edit <code>src/lit-app.js</code> and save to reload.</p>
 		`;
 	}
 }
